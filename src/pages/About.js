@@ -17,17 +17,21 @@ function About() {
 
             <tr>
               <td>Location</td>
-              <td>Thiruvananthapuram, Kerala</td>
+              <td>IVORY ASSOCIATES, BUILDING NO. 13/520 - B, VALLOM KODANAD ROAD, VALLOM, OKKAL P.O. - 683550, ERNAKULAM DIST.</td>
             </tr>
 
             <tr>
               <td>Phone</td>
-              <td>+91 9876543210</td>
+              <td>+91 86065 11611</td>
             </tr>
 
             <tr>
               <td>Email</td>
               <td>zenvofurniture@gmail.com</td>
+            </tr>
+            <tr>
+              <td>GSTIN</td>
+              <td>32AALFI6174Q1ZQ</td>
             </tr>
           </tbody>
         </table>

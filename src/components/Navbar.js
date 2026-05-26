@@ -14,7 +14,7 @@ function Navbar() {
         </div>
         <div className="logo-text">
           <span className="logo-main">
-            Zen<span className="logo-highlight">Uo</span>
+            Zen<span className="logo-highlight">Vo</span>
           </span>
           <span className="logo-sub">Furniture</span>
         </div>

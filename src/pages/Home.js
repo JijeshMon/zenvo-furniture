@@ -1,31 +1,34 @@
 import '../styles/Home.css';
 import { useNavigate } from 'react-router-dom';
 // Import your specific chair image
-import bg from '../assets/background/bg.png'; // Change to your image name
+import bg2 from '../assets/background/bg2.png'; 
 
 function Home() {
   const navigate = useNavigate();
   
   return (
     <div className="home">
-    <div className="hero-section" style={{
-   minHeight: '90vh',
-  backgroundImage: `url(${bg})`,
-  backgroundSize: 'cover',
-  backgroundPosition: 'center 40%',
-  backgroundBlendMode: 'overlay',
-  backgroundRepeat: 'no-repeat',
-  display: 'flex',
-  alignItems: 'center',
-  justifyContent: 'center',
-  textAlign: 'center',
-  color: 'white',
-  padding: '10px',
-  position: 'relative',
-  overflow: 'hidden'
-}}>
+      <div className="hero-section" style={{
+        minHeight: '90vh',
+        backgroundImage: `url(${bg2})`,
+        backgroundSize: 'cover',
+        backgroundPosition: '30% center',
+        backgroundBlendMode: 'overlay',
+        backgroundRepeat: 'no-repeat',
+        display: 'flex',
+        alignItems: 'center',
+        justifyContent: 'center',
+        textAlign: 'center',
+        color: 'white',
+        padding: '10px',
+        position: 'relative',
+        overflow: 'hidden'
+      }}>
         <div className="hero-content">
-          <h1>Welcome To Zenvo</h1>
+          <h1>
+            <i className="fas fa-couch" style={{ marginRight: '15px', color: '#F28C28' }}></i> 
+            Zenvo
+          </h1>
           <h2>Premium Chair Collection</h2>
           <p>
             Discover premium executive chairs, ergonomic office chairs,
